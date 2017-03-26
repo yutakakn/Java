@@ -1,0 +1,10 @@
+C:\usr\GitHub\Java\reversi>jar cf reversi.jar -C jarfile .
+
+C:\usr\GitHub\Java\reversi>jar tvf reversi.jar
+     0 Sun Mar 26 22:36:50 JST 2017 META-INF/
+    69 Sun Mar 26 22:36:50 JST 2017 META-INF/MANIFEST.MF
+  4779 Sun Mar 26 22:15:16 JST 2017 Computer.class
+  1318 Sun Mar 26 22:15:38 JST 2017 MessageDialog.class
+ 11810 Sun Mar 26 22:15:38 JST 2017 Riversi2.class
+   861 Sun Mar 26 22:15:38 JST 2017 stack.class
+
