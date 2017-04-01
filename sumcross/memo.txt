@@ -1,0 +1,15 @@
+C:\usr\GitHub\Java\sumcross\src>jar cf sumcross.jar -C jarfile .
+jarfile\.というファイルまたはディレクトリはありません
+
+C:\usr\GitHub\Java\sumcross\src>cd ..
+
+C:\usr\GitHub\Java\sumcross>jar cf sumcross.jar -C jarfile .
+
+C:\usr\GitHub\Java\sumcross>jar tvf sumcross.jar
+     0 Sun Apr 02 00:28:42 JST 2017 META-INF/
+    69 Sun Apr 02 00:28:42 JST 2017 META-INF/MANIFEST.MF
+  4366 Sun Apr 02 00:28:10 JST 2017 Load.class
+  1318 Sun Apr 02 00:28:10 JST 2017 MessageDialog.class
+  4535 Sun Apr 02 00:28:10 JST 2017 Solve.class
+  7102 Sun Apr 02 00:28:10 JST 2017 SumCross.class
+
