@@ -1,0 +1,15 @@
+PS card> dir
+
+
+    ディレクトリ: C:\usr\GitHub\Java\card
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----       2017/04/15     15:37                jarfile
+d-----       2017/04/15     15:28                src
+-a----       2017/04/02      0:29            591 memo.txt
+
+
+PS card> jar cf card.jar -C jarfile .
+
