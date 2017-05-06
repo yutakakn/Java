@@ -1,0 +1,7 @@
+
+PS bine> jar cfm Bine.jar .\jarfile\MANIFEST.MF -C jarfile .
+PS bine> jar tvf Bine.jar
+
+PS bine> java -jar Bine.jar
+PS bine> javaw -jar Bine.jar
+
