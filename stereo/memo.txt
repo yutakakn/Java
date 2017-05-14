@@ -1,0 +1,21 @@
+PS src> javac Stereo.java
+注意:Stereo.javaは非推奨のAPIを使用またはオーバーライドしています。
+注意:詳細は、-Xlint:deprecationオプションを指定して再コンパイルしてください。
+PS src> javac -Xlint:deprecation Stereo.java
+
+PS src> dir
+
+
+    ディレクトリ: C:\usr\GitHub\Java\stereo\src
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----       2017/05/14     21:12           5157 Stereo.class
+-a----       2017/05/14     21:23           1395 Stereo.html
+-a----       1997/10/19     19:22           5945 Stereo.java
+
+
+PS stereo> jar cf Stereo.jar -C jarfile .
+
+
